@@ -12,8 +12,8 @@
 
 # when u want to start counting from the end u use [-] 
 
-# states_in_nigeria=["Abia","Adamawa","Anambra","Enugu","Imo","Kaduna","Abuja","Kano","Lagos","Niger","Edo","Cross River","Bauchi","Ebonyi"]
-# print(states_in_nigeria[-1])
+states_in_nigeria=["Abia","Adamawa","Anambra","Enugu","Imo","Kaduna","Abuja","Kano","Lagos","Niger","Edo","Cross River","Bauchi","Ebonyi"]
+print(states_in_nigeria[-1])
 
 # if the case where u want to change a piece of data for a exampl like the spelling
 # states_in_nigeria=["Abia","Adamawa","Anambra","Enugu","Imo","Kaduna","Abuja","Kano","Lagos","Niger","Edo","Cross River","Bauchi","Ebonyi"]
@@ -33,18 +33,18 @@
 # print(states_in_nigeria)
 
 # Who is paying coding char
-import random
-test_seed =int(input("Create a seed number: "))
-random.seed(test_seed)
+# import random
+# test_seed =int(input("Create a seed number: "))
+# random.seed(test_seed)
 
-# Split string method
-namesAsCSV = input("Give me everybody's names,separated by a comma:")
-names = namesAsCSV.split(",")
+# # Split string method
+# namesAsCSV = input("Give me everybody's names,separated by a comma:")
+# names = namesAsCSV.split(",")
 
-# Get the total number of items in list
-num_items= len(names)
-# generate random number between 0 and the last number
-random_names =random.randint(0,num_items - 1)
-person_who_will_pay =names[random_names]
+# # Get the total number of items in list
+# num_items= len(names)
+# # generate random number between 0 and the last number
+# random_names =random.randint(0,num_items - 1)
+# person_who_will_pay =names[random_names]
 
-print(person_who_will_pay +"  is going to buy the meal today!")
+# print(person_who_will_pay +"  is going to buy the meal today!")
